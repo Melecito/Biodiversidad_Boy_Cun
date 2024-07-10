@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.destination {
+    margin-bottom: 20px;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.destination p {
+    text-align: center;    
+}
+
+#map {
+    height: 600px;
+}
+
+
+
+
+/* nav ul {
+    list-style-type: none;    
+    display:flex;
+    justify-content: space-around;
+    background-color: #360ee9 ;
+    color:#ffffff;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 15px;
+    border: solid rgb(15, 15, 15) 2px;
+  } */
+
+/* nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d4d5dd;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0FA907;
+} */
+
+footer {
+    background-color: #030303;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: auto;
+}
+/* footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position:static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: auto;
+} */
+
+h2 {
+    color: #07099c;
+}
+
+
+.fondoDestino {
+    background-color: rgb(145, 182, 236);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+           
+}
+h2 {
+    color: #502427;
+    text-align: center;
+    ;
+}

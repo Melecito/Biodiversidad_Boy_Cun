@@ -1,0 +1,194 @@
+
+
+body {
+    display: grid;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+    
+    
+    
+}
+
+body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+  }
+
+  header {
+    background-color: #0d0d0e;
+    background-image: url(../imagenes/cocuy.jpeg); 
+    height: 180px;  
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+  
+  .table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
+  }
+
+.fondoIntroduccion {
+    background-image: url(../imagenes/biodiversidad-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+
+.fondoFlora {
+    background-image: url(../imagenes/flora-2.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.fondoFauna {
+    background-image: url(../imagenes/fauna-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fondoEcosistemas {
+    background-image: url(../imagenes/Ecosistemas-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+       
+}
+
+.fondoDestino{
+    /* background-image: url(../imagenes/Ecosistemas-2.jpg); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+.component {
+color: var(--bs-gray-800);
+background-color: var(--bs-gray-100);
+border: 1px solid var(--bs-gray-200);
+border-radius: .25rem;
+}
+
+.component-header {
+color: var(--bs-purple);
+}
+
+/* nav ul {
+    list-style-type: none;    
+    display:flex;
+    justify-content: space-around;
+    background-color: #360ee9 ;
+    color:#ffffff;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 15px;
+    border: solid rgb(15, 15, 15) 2px;
+  } */
+
+/* nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d4d5dd;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0FA907;
+} */
+
+.main-cuerpo{
+    margin-top: 250px;
+}
+.dibujo{
+    background-image: url("../imagenes/lobo/ andino.jpeg");
+    opacity: value;
+}
+
+.transparente { 
+    
+    background: hsl(0, 11%, 86%); /* Color de fondo negro */ opacity: 0.9; /* 50% de opacidad */ color: rgb(0, 0, 0); /* Color del texto */ padding: 40px; margin: 20px; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    /*background-color: #fff;*/
+
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-align: justify;
+    border: solid rgb(15, 15, 15) 2px;
+   
+
+    
+    
+}
+
+
+
+.container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #2980b9;
+    text-align: justify;
+}
+
+/* footer {
+    background-color: #e8eaeb;
+    
+    color: #4d4b4b;
+    text-align: center;
+    padding: 10px;
+    position:static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: auto;
+} */
+
+h2 {
+    color: #07099c;
+}
+
+
+
+
+
+
+
+
