@@ -1,0 +1,70 @@
+{% extends './base.html' %}
+
+{% block title %}Contactanos{% endblock %}
+
+{% block body %}
+<div class="container transparente" id="ecosistemas">
+    <div class="container text-center mt-5">
+      <img class="" width="100%" src="{{url_for('static',filename='img/inicio.jpg')}}" alt="Formulario">
+    </div>
+    <div class="container text-center mt-5">
+      <h2>Formulario de contacto</h2>
+      
+      <form action="/guardar_datos" method="post">
+        <div class="input-group mb-3">
+          <span for="Nombre" id="Nombre" class="input-group-text">Nombres</span>
+          <input
+            type="text"
+            class="form-control" 
+            id="Nombre"
+            name="Nombre"
+            placeholder="Escribe tus nombres"               
+            aria-describedby="basic-addon1" required>
+        </div>
+        <div class="input-group mb-3">
+          <span for="Apellidos" class="input-group-text">Apellidos</span>
+          <input
+            type="text"
+            class="form-control" 
+            id="Apellido"
+            name="Apellido"
+            placeholder="Escribe tus apelliodos"               
+            aria-describedby="basic-addon1" required>
+        </div>          
+
+        <div class="input-group mb-3">
+          <span  for="Correo" class="input-group-text">Correo</span>
+          <input
+            type="email"
+            class="form-control" 
+            id="Correo"
+            name="Correo"
+            placeholder="Escriba tu correo" required>
+        </div>
+        <div class="input-group mb-3">
+          <span  for="Celular" class="input-group-text">Celular</span>
+          <input
+            type="number"
+            class="form-control" 
+            id="Celular"
+            name="Celular"
+            placeholder="Escribe tu celular"               
+            aria-describedby="basic-addon1" required>
+        </div>   
+
+        <div class="input-group">
+          <span  for="Comentarios" class="input-group-text">Comentarios</span>
+          <textarea
+            class="form-control" 
+            id="Comentario"
+            name="Comentario"
+            aria-label="With textarea"
+          ></textarea>
+        </div><br>
+       
+          <button type="submit" class="btn btn-primary">Enviar</button>           
+      </form>
+    </div>
+  </div>
+    
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends './base.html' %}
+
+{% block title %}Destinos{% endblock %}
+
+{% block body %}
+<div class="container transparente" id="boyaca">
+  <center>
+  <h1>Destinos Turísticos de Boyacá y Cundinamarca</h1>
+</center>
+  <div class="destination">
+      <img src="../static/imagenes/villa_Leyva.jpg" alt="Villa de Leyva, Boyacá" onclick="showInfo('villa_de_leyva')">
+      <h2>Villa de Leyva, Boyacá</h2>
+  </div>
+  <div class="destination">
+      <img src="../static/imagenes/zipaquira.jpg" alt="Zipaquirá, Cundinamarca" onclick="showInfo('zipaquira')">
+      <h2>Zipaquirá, Cundinamarca</h2>
+  </div>
+  <div class="destination">
+      <img src="../static/imagenes/guatavita.jpg" class="img_ok" alt="Laguna de Guatavita, Cundinamarca" onclick="showInfo('guatavita')">
+      <h2>Laguna de Guatavita, Cundinamarca</h2>
+  </div>       
+  
+</div>
+
+{% endblock %}
