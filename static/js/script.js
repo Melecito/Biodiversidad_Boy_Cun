@@ -91,5 +91,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  function actualizarHora() {
+    var ahora = new Date();
+    var hora = ahora.toLocaleTimeString();
+    document.getElementById("hora").innerText = "Hora actual: " + hora;
+}
+
+setInterval(actualizarHora, 1000);
+
 
         
